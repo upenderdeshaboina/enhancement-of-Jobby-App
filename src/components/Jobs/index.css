@@ -1,0 +1,27 @@
+.jobs-main-container {
+  background-color: #000;
+  padding-top: 10px;
+}
+.responsive-jobs-container {
+  display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .search-container-lg {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .responsive-jobs-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.search-input-jobs-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.jobs-list {
+  overflow-y: auto;
+}
